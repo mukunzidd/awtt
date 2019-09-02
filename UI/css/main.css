@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: #000;
+}
+.card {
+  height: 100vh;
+}
+
+.card .card-header {
+  min-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 250%;
+}
+
+.card .card-footer {
+  background: #d1d103;
+  height: 10vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+img {
+  width: 100px;
+}
+.logo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  background-image: url('../assets/logo.jpg');
+  z-index: 10;
+  background-position: center right;
+}
+
+h1 {
+  margin: 0;
+  color: yellow;
+}
+#sailing {
+  color: white;
+}
+#for {
+  color: yellow;
+  font-size: 0.6em;
+  font-family: 'Love Ya Like A Sister', cursive;
+}
+#dummies {
+  font-family: 'Love Ya Like A Sister', cursive;
+}
+
+p {
+  margin: 0;
+  padding-right: 20px;
+  font-weight: 700;
+}
